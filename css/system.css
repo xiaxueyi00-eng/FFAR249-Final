@@ -1,0 +1,177 @@
+body::after {
+    content:
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A"
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A"
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A"
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A"
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A"
+        "---- ---- ---- ---- ---- ---- ---- ---- \A"
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A"
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A"
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A"
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A"
+        "SO REAL FAKE OMG FILTER AI VIRAL TRENDING WATCHING WATCHING \A"
+        "ALGORITHM PUSH WHO IS SHE NOT NATURAL AI FACE VIRAL AGAIN \A"
+        "RECOMMENDED LIVE CHAT LIVE CHAT LIVE CHAT \A"
+        "WHY AM I HERE ALGORITHM KNOWS YOU WATCHING WATCHING \A";
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+
+    width: max-content;
+
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 6px;
+
+    white-space: pre;
+    color: rgba(255, 255, 255, 0.25);
+
+    animation: danmakuScroll 12s linear infinite;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+@keyframes danmakuScroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+
+
+}
+
+.flash {
+    position: fixed;
+    inset: 0;
+    background: white;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999;
+    transition: opacity 0.2s;
+}
+
+.flash.active {
+    opacity: 1;
+}
+
+.no-signal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-family: monospace;
+    font-size: 36px;
+    letter-spacing: 8px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1000;
+}
+
+.no-signal.show {
+    opacity: 1;
+}
+
+.shake {
+    animation: shakeCam 0.08s infinite;
+}
+
+@keyframes shakeCam {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    25% {
+        transform: translate(-2px, 1px);
+    }
+
+    50% {
+        transform: translate(2px, -2px);
+    }
+
+    75% {
+        transform: translate(-1px, 2px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.camera {
+    position: relative;
+    filter: grayscale(100%) contrast(120%) brightness(90%);
+}
+
+.camera::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.05) 0px,
+            rgba(255, 255, 255, 0.05) 1px,
+            transparent 2px,
+            transparent 4px);
+
+}

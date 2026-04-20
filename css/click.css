@@ -1,0 +1,63 @@
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.node {
+    box-shadow:
+        0 0 15px #00ffff,
+        0 0 40px #00ffff,
+        0 0 80px rgba(0, 255, 255, 0.6);
+}
+
+.core {
+    box-shadow:
+        0 0 20px #00ffff,
+        0 0 60px #00ffff,
+        0 0 120px rgba(0, 255, 255, 0.8);
+    animation: heartBeat 2s ease-in-out infinite;
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    30% {
+        transform: translate(-50%, -50%) scale(1.08);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+
+}
